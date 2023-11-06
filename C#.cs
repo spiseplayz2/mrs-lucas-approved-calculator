@@ -29,7 +29,7 @@ class Program
 if ( num2 < 0 ) {
                     Console.WriteLine("Cannot Compute negative numbers, please run again.");
                     return;
-                }
+                } if ( num2 == 0 && op == "/"){ Console.WriteLine(" Cannot divide by 0") return; }
                     // does the math
                 if (op == "+") {
                     Console.WriteLine(num1 + num2);
