@@ -29,7 +29,7 @@ class Program
 if ( num2 < 0 ) {
                     Console.WriteLine("Cannot Compute negative numbers, please run again.");
                     return;
-                } if ( num2 == 0 && op == "/"){ Console.WriteLine(" Cannot divide by 0") return; }
+                } if ( num2 == 0 && op == "/"){ Console.WriteLine(" Cannot divide by 0"); return; }
                     // does the math
                 if (op == "+") {
                     Console.WriteLine(num1 + num2);
@@ -39,6 +39,16 @@ if ( num2 < 0 ) {
                     Console.WriteLine(num1 / num2);
                 } else if (op == "*") {
                     Console.WriteLine(num1 * num2);
+                } else if ( op == "times"){
+                    Console.WriteLine( num1 * num2 );
+                } else if ( op == "minus"){
+                    Console.WriteLine( num1 - num2);
+                } else if ( op == "plus"){
+                    Console.WriteLine( num1 + num2 );
+                } else if ( op == "divided by"){
+                    Console.WriteLine( num1 / num2 );
+                } else if ( op == "x"){
+                    Console.WriteLine( num1 * num2 );
                 } else {
                     Console.WriteLine("Invalid Operator");
 
