@@ -188,7 +188,7 @@ namespace calc
                 {
                     Console.WriteLine( num1 + num2 / num3 + num4 );
                     goto rerun;
-                } else if ( op == "plus" && op2 == "times" && op3 == "minus")
+                } else if ( op == "plus" && op2 == "times" && op3 == "minus" || op == "+" && op2 == "*" && op3 == "-")
 { Console.WriteLine( num1 + num2 * num3 - num4);
 
 
