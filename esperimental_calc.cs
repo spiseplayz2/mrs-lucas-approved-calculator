@@ -1,6 +1,6 @@
 using System;
 
-namespace calc
+namespace exp_calc
 {
     class Program
     {
